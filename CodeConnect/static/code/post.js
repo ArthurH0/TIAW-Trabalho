@@ -28,12 +28,11 @@ function right() {
     document.getElementById("textarea1").style.textAlign = "right";
 }
 
-function clear() {
+function Clear() {
     //Limpa os inputs do usuário na caixa de texto
 
     document.getElementById("textarea1").style.fontWeight = "normal";
     document.getElementById("textarea1").style.textAlign = "left";
     document.getElementById("textarea1").style.fontStyle = "normal";
-    document.getElementById("textarea1").style.textTransform = "capitalize";
-    document.getElementById("textarea1").value = " ";
+    document.getElementById("textarea1").value = ' ';
 }
